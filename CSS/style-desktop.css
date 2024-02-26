@@ -3,11 +3,11 @@ h1 {
 }
 
 h2 {
-  font-size: 4rem;
+  font-size: 4.4rem;
 }
 
 h3 {
-  font-size: 3.2rem;
+  font-size: 3.4rem;
 }
 
 /*  HEADER */
@@ -17,4 +17,15 @@ h3 {
 
 .header__precio {
   font-size: 5rem;
+}
+
+/* SOBRE-TECH */
+.sobre-tech {
+  padding-block: 15rem;
+  background-image: linear-gradient(to left, transparent 0%, transparent 50%, var(--primary-color) 50%, var(--primary-color) 100%), url("../img/imagen-mujer.jpg");
+  background-size: 100%, 130rem;
+}
+
+.sobre-tech__grid {
+  grid-template-columns: repeat(2, minmax(30rem, 60rem));
 }

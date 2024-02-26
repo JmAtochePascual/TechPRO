@@ -7,11 +7,11 @@ h1 {
 }
 
 h2 {
-  font-size: 3.2rem;
+  font-size: 4.2rem;
 }
 
 h3 {
-  font-size: 2.4rem;
+  font-size: 3.2rem;
 }
 
 /*  HEADER */
@@ -49,7 +49,7 @@ h3 {
 
 /* ICONOS */
 .iconos {
-  padding-block: 5rem;
+  padding-block: 10rem;
 }
 
 .iconos__grid {
@@ -72,4 +72,21 @@ h3 {
 
 .icono__copy {
   color: var(--gray-color);
+}
+
+/* SOBRE-TECH */
+.sobre-tech {
+  padding-block: 12rem;
+  background-image: linear-gradient(to left, transparent 0%, transparent 50%, var(--primary-color) 50%, var(--primary-color) 100%), url("../img/imagen-mujer.jpg");
+  background-size: 100%, 120rem;
+  background-position: center, top right;
+}
+
+.sobre-tech__grid {
+  grid-template-columns: repeat(2, minmax(30rem, 50rem));
+  grid-template-rows: unset;
+}
+
+.sobre-tech__content {
+  grid-row: unset;
 }

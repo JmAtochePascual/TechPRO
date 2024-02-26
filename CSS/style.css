@@ -90,16 +90,17 @@ h6 {
   margin: 0;
   text-align: center;
   font-family: var(--primary-Font);
-  font-weight: 900;
+  font-weight: 700;
   color: var(--white-color);
 }
 
 h1 {
   font-size: 5rem;
+  font-weight: 900;
 }
 
 h2 {
-  font-size: 2.4rem;
+  font-size: 4rem;
 }
 
 h3 {
@@ -204,4 +205,26 @@ textarea {
 
 .icono__copy {
   color: var(--gray-color);
+}
+
+/* SOBRE-TECH */
+.sobre-tech {
+  padding-block: 10rem;
+  background-image: linear-gradient(to bottom, transparent 0%, transparent 50%, var(--primary-color) 50%, var(--primary-color) 100%), url("../img/imagen-mujer.jpg");
+  background-size: 100%, 80rem;
+  background-position: center, top right;
+  background-repeat: no-repeat;
+}
+
+.sobre-tech__grid {
+  display: grid;
+  grid-template-columns: minmax(30rem, 40rem);
+  grid-template-rows: repeat(2, 1fr);
+  justify-content: center;
+  gap: 10rem;
+}
+
+.sobre-tech__content {
+  grid-row: 2 / 3;
+  text-align: center;
 }
