@@ -1,0 +1,129 @@
+@font-face {
+  font-family: "Lato", sans-serif;
+  src: url(../fonts/Lato/Lato-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato", sans-serif;
+  src: url(../fonts/Lato/Lato-Bold.ttf);
+  font-weight: 700;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: "Lato", sans-serif;
+  src: url(../fonts/Lato/Lato-Black.ttf);
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url(../fonts/Roboto/Roboto-Bold.ttf);
+  font-weight: 700;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url(../fonts/Roboto/Roboto-Black.ttf);
+  font-weight: 900;
+}
+
+:root {
+  /* Fonts */
+  --primary-Font: 'sans serif';
+  --secondary-Font: 'sans serif';
+
+  /* Colors */
+  --primary-color: #1073ba;
+  --secondary-color: #00da55;
+  --gray-color: #3b3b3b;
+  --grayLight-color: #e1e1e1;
+  --white-color: #fffff;
+  --black-color: #1f1e1e;
+
+
+  /* Font Size */
+  --paragraph-movil: 1.4rem;
+  --paragraph-desktop: 1.6rem;
+
+  /* Line-Height */
+  --line: 1.5;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 32rem;
+  font-size: var(--paragraph--movil);
+  line-height: var(--line);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+input,
+textarea {
+  outline: none;
+}
+
+[class$="__container"] {
+  width: min(95%, 144rem);
+  margin: 0 auto;
+}
