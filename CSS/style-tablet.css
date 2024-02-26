@@ -46,3 +46,30 @@ h3 {
 .header__precio {
   font-size: 4rem;
 }
+
+/* ICONOS */
+.iconos {
+  padding-block: 5rem;
+}
+
+.iconos__grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.icono {
+  text-align: center;
+}
+
+.icono__img {
+  width: 10rem;
+  height: auto;
+  margin-inline: auto;
+}
+
+.icono_title {
+  color: var(--primary-color);
+}
+
+.icono__copy {
+  color: var(--gray-color);
+}

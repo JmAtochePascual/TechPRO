@@ -90,6 +90,7 @@ h6 {
   margin: 0;
   text-align: center;
   font-family: var(--primary-Font);
+  font-weight: 900;
   color: var(--white-color);
 }
 
@@ -102,7 +103,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.6rem;
+  font-size: 3rem;
 }
 
 p {
@@ -172,4 +173,35 @@ textarea {
 .header__precio {
   font-size: 3rem;
   font-weight: bold;
+}
+
+/* ICONOS */
+.iconos {
+  padding-block: 5rem;
+}
+
+.iconos__grid {
+  display: grid;
+  grid-template-columns: minmax(30rem, 40rem);
+  justify-content: center;
+  gap: 2rem;
+}
+
+.icono {
+  text-align: center;
+}
+
+.icono__img {
+  width: 8rem;
+  height: auto;
+  margin-inline: auto;
+}
+
+.icono_title {
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+
+.icono__copy {
+  color: var(--gray-color);
 }
