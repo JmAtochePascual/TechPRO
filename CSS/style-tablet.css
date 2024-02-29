@@ -63,3 +63,42 @@
   grid-row: unset;
   text-align: left;
 }
+
+/* MODELOS */
+.modelos {
+  padding-block: 7rem;
+}
+
+.modelos__title {
+  margin-bottom: 7rem;
+  font-size: 5rem;
+}
+
+.modelos__wraper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-auto-flow: dense;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.modelo {
+  padding: 3rem 2rem;
+  background-size: 15rem;
+  background-position: 90% 90%;
+}
+
+.modelo:nth-child(3) {
+  grid-column: 2 / 3;
+  grid-row: 1/3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.modelo:nth-child(3) .modelo__title,
+.modelo:nth-child(3) .modelo__precio {
+  font-size: 5rem;
+}

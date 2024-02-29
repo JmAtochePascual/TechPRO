@@ -206,7 +206,7 @@ textarea {
 
 .sobre-tech__grid {
   display: grid;
-  grid-template-columns: minmax(30rem, 40rem);
+  grid-template-columns: minmax(30rem, 50rem);
   grid-template-rows: repeat(2, 1fr);
   justify-content: center;
   gap: 10rem;
@@ -232,42 +232,36 @@ textarea {
   text-align: center;
 }
 
-.modelos__grid {
+.modelos__wraper {
   display: flex;
   flex-direction: column-reverse;
   gap: 2rem;
 }
 
-.modelo,
-.modelo__title {
-  text-align: left;
-  color: var(--gray-color);
-}
-
 .modelo {
-  padding: 3rem .8rem;
+  padding: 3rem 1rem;
   border-radius: 1.6rem;
   background-color: var(--primary-color);
   background-repeat: no-repeat;
   background-size: 10rem;
   background-position: 90% center;
+  background-color: var(--grayLight-color);
 }
 
-.modelo-x {
+.modelo:nth-child(3) {
+  background-color: var(--primary-color);
+}
+
+.modelo:nth-child(1) {
   background-image: url("../img/modelo-x.svg");
 }
 
-.modelo-y {
+.modelo:nth-child(2) {
   background-image: url("../img/modelo-y.svg");
 }
 
-.modelo-z {
+.modelo:nth-child(3) {
   background-image: url("../img/modelo-z.svg");
-}
-
-.modelo-x,
-.modelo-y {
-  background-color: var(--grayLight-color);
 }
 
 .modelo__title,
@@ -275,8 +269,8 @@ textarea {
   color: var(--primary-color);
 }
 
-.modelo__title--blue,
-.modelo__precio--blue {
+.modelo:nth-child(3) .modelo__title,
+.modelo:nth-child(3) .modelo__precio {
   color: var(--white-color);
 }
 
