@@ -77,7 +77,7 @@ body {
   min-width: 32rem;
   font-size: var(--paragraph-movil);
   line-height: var(--line);
-  font-family: var(--secondary-Font);
+  font-family: var(--primary-Font);
   color: var(--white-color);
 }
 
@@ -89,8 +89,8 @@ h5,
 h6 {
   margin: 0;
   text-align: center;
-  font-family: var(--primary-Font);
-  font-weight: 700;
+  font-family: var(--secondary-Font);
+  /* font-weight: 700; */
   color: var(--white-color);
 }
 
@@ -227,4 +227,66 @@ textarea {
 .sobre-tech__content {
   grid-row: 2 / 3;
   text-align: center;
+}
+
+/* MODELOS */
+.modelos {
+  padding-block: 5rem;
+}
+
+.modelos__title {
+  margin-bottom: 3rem;
+}
+
+.modelos__grid {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 2rem;
+}
+
+.modelo,
+.modelo__title {
+  text-align: left;
+  color: var(--gray-color);
+}
+
+.modelo {
+  padding: 3rem .8rem;
+  border-radius: 1.6rem;
+  background-color: var(--primary-color);
+  background-repeat: no-repeat;
+  background-size: 10rem;
+  background-position: 90% center;
+}
+
+.modelo-x {
+  background-image: url("../img/modelo-x.svg");
+}
+
+.modelo-y {
+  background-image: url("../img/modelo-y.svg");
+}
+
+.modelo-z {
+  background-image: url("../img/modelo-z.svg");
+}
+
+.modelo-x,
+.modelo-y {
+  background-color: var(--grayLight-color);
+}
+
+.modelo__title,
+.modelo__precio {
+  color: var(--primary-color);
+}
+
+.modelo__title--blue,
+.modelo__precio--blue {
+  color: var(--white-color);
+}
+
+.modelo__precio {
+  font-size: 4rem;
+  font-weight: 900;
 }
