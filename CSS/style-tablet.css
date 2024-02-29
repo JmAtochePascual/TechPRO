@@ -1,17 +1,7 @@
-body {
-  font-size: var(--paragraph-desktop);
-}
-
-h1 {
-  font-size: 7rem;
-}
-
-h2 {
-  font-size: 4.2rem;
-}
-
-h3 {
-  font-size: 3.2rem;
+:root {
+  /* Fonts */
+  --paragraph: normal 1.6rem/2 var(--primary-Font);
+  --titleOne: 900 7rem/1.5 var(--secondary-Font);
 }
 
 /*  HEADER */
@@ -34,13 +24,12 @@ h3 {
   max-width: 80rem;
 }
 
-.header__content,
-.header__title {
+.header__content {
   text-align: left;
 }
 
 .header__tagline {
-  font-size: 2rem;
+  font-size: 2.4rem;
 }
 
 .header__precio {
@@ -48,37 +37,20 @@ h3 {
 }
 
 /* ICONOS */
-.iconos {
-  padding-block: 10rem;
-}
-
 .iconos__grid {
   grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
 }
 
 .icono {
   text-align: center;
 }
 
-.icono__img {
-  width: 10rem;
-  height: auto;
-  margin-inline: auto;
-}
-
-.icono_title {
-  color: var(--primary-color);
-}
-
-.icono__copy {
-  color: var(--gray-color);
-}
-
 /* SOBRE-TECH */
 .sobre-tech {
-  padding-block: 12rem;
+  padding-block: 8rem;
   background-image: linear-gradient(to left, transparent 0%, transparent 50%, var(--primary-color) 50%, var(--primary-color) 100%), url("../img/imagen-mujer.jpg");
-  background-size: 100%, 120rem;
+  background-size: 100%, 80rem;
   background-position: center, top right;
 }
 
@@ -89,4 +61,5 @@ h3 {
 
 .sobre-tech__content {
   grid-row: unset;
+  text-align: left;
 }

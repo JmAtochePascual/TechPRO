@@ -43,6 +43,11 @@
   --primary-Font: "Lato", sans-serif;
   --secondary-Font: "Roboto", sans-serif;
 
+  --paragraph: normal 1.4rem/2 var(--primary-Font);
+  --titleOne: 900 5rem/1.5 var(--secondary-Font);
+  --titleTwo: 900 4rem/1.5 var(--secondary-Font);
+  --titleThree: 900 3rem/1.5 var(--secondary-Font);
+
   /* Colors */
   --primary-color: #1073ba;
   --secondary-color: #00da55;
@@ -50,14 +55,6 @@
   --grayLight-color: #e1e1e1;
   --white-color: #ffffff;
   --black-color: #1f1e1e;
-
-
-  /* Font Size */
-  --paragraph-movil: 1.4rem;
-  --paragraph-desktop: 1.6rem;
-
-  /* Line-Height */
-  --line: 1.5;
 }
 
 *,
@@ -75,10 +72,7 @@ html {
 
 body {
   min-width: 32rem;
-  font-size: var(--paragraph-movil);
-  line-height: var(--line);
-  font-family: var(--primary-Font);
-  color: var(--white-color);
+  font: var(--paragraph);
 }
 
 h1,
@@ -88,27 +82,18 @@ h4,
 h5,
 h6 {
   margin: 0;
-  text-align: center;
-  font-family: var(--secondary-Font);
-  /* font-weight: 700; */
-  color: var(--white-color);
 }
 
 h1 {
-  font-size: 5rem;
-  font-weight: 900;
+  font: var(--titleOne);
 }
 
 h2 {
-  font-size: 4rem;
+  font: var(--titleTwo);
 }
 
 h3 {
-  font-size: 3rem;
-}
-
-p {
-  line-height: 2;
+  font: var(--titleThree);
 }
 
 a {
@@ -134,7 +119,7 @@ textarea {
 
 [class$="__container"] {
   width: min(95%, 144rem);
-  margin: 0 auto;
+  margin-inline: auto;
 }
 
 .degradado {
@@ -164,15 +149,16 @@ textarea {
 .header__content {
   width: min(100%, 50rem);
   text-align: center;
+  color: var(--white-color);
 }
 
 .header__tagline {
-  font-size: 1.6rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 
 .header__precio {
-  font-size: 3rem;
+  font-size: 6rem;
   font-weight: bold;
 }
 
@@ -185,7 +171,7 @@ textarea {
   display: grid;
   grid-template-columns: minmax(30rem, 40rem);
   justify-content: center;
-  gap: 2rem;
+  gap: 5rem;
 }
 
 .icono {
@@ -193,12 +179,14 @@ textarea {
 }
 
 .icono__img {
-  width: 8rem;
+  width: 5rem;
   height: auto;
   margin-inline: auto;
+  margin-bottom: 1rem;
 }
 
 .icono_title {
+  margin-bottom: 1rem;
   text-transform: uppercase;
   color: var(--primary-color);
 }
@@ -209,7 +197,7 @@ textarea {
 
 /* SOBRE-TECH */
 .sobre-tech {
-  padding-block: 10rem;
+  padding-block: 5rem;
   background-image: linear-gradient(to bottom, transparent 0%, transparent 50%, var(--primary-color) 50%, var(--primary-color) 100%), url("../img/imagen-mujer.jpg");
   background-size: 100%, 80rem;
   background-position: center, top right;
@@ -227,6 +215,11 @@ textarea {
 .sobre-tech__content {
   grid-row: 2 / 3;
   text-align: center;
+  color: var(--white-color);
+}
+
+.sobre-tech__title {
+  margin-bottom: 2rem;
 }
 
 /* MODELOS */
@@ -235,7 +228,8 @@ textarea {
 }
 
 .modelos__title {
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
+  text-align: center;
 }
 
 .modelos__grid {
