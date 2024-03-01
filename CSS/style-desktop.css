@@ -15,7 +15,6 @@
 /* SOBRE-TECH */
 .sobre-tech {
   padding-block: 12rem;
-  background-image: linear-gradient(to left, transparent 0%, transparent 50%, var(--primary-color) 50%, var(--primary-color) 100%), url("../img/imagen-mujer.jpg");
   background-size: 100%, 120rem;
   background-position: right center;
 }
@@ -51,7 +50,6 @@
 
 /* NEWSLETTER */
 .newsletter {
-  background-image: linear-gradient(to right, transparent 0%, transparent 50%, var(--white-color) 50%, var(--white-color) 100%), url("../img/newsletter.jpg");
   background-size: 100%, 120rem;
   background-position: center, left center;
 }

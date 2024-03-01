@@ -204,6 +204,18 @@ textarea {
   background-repeat: no-repeat;
 }
 
+@supports (background-image: url('../img/imagen-mujer.webp')) {
+  .sobre-tech {
+    background-image: linear-gradient(to bottom, transparent 0%, transparent 50%, var(--primary-color) 50%, var(--primary-color) 100%), url("../img/imagen-mujer.webp");
+  }
+}
+
+@supports (background-image: url('../img/imagen-mujer.avif')) {
+  .sobre-tech {
+    background-image: linear-gradient(to bottom, transparent 0%, transparent 50%, var(--primary-color) 50%, var(--primary-color) 100%), url("../img/imagen-mujer.avif");
+  }
+}
+
 .sobre-tech__grid {
   display: grid;
   grid-template-columns: minmax(30rem, 50rem);
@@ -286,6 +298,18 @@ textarea {
   background-repeat: no-repeat;
   background-size: 100%, 80rem;
   background-position: center, center top;
+}
+
+@supports (background-image: url('../img/newsletter.webp')) {
+  .newsletter {
+    background-image: linear-gradient(to bottom, transparent 0%, transparent 50%, var(--white-color) 50%, var(--white-color) 100%), url("../img/newsletter.webp");
+  }
+}
+
+@supports (background-image: url('../img/newsletter.avif')) {
+  .newsletter {
+    background-image: linear-gradient(to bottom, transparent 0%, transparent 50%, var(--white-color) 50%, var(--white-color) 100%), url("../img/newsletter.avif");
+  }
 }
 
 .newsletter__wrapper {
