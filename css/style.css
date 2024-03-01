@@ -187,6 +187,8 @@ textarea {
 
 .icono_title {
   margin-bottom: 1rem;
+  font-size: 3rem;
+  font-weight: bold;
   text-transform: uppercase;
   color: var(--primary-color);
 }

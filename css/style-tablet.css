@@ -46,6 +46,10 @@
   text-align: center;
 }
 
+.icono_title {
+  font-size: 4rem;
+}
+
 /* SOBRE-TECH */
 .sobre-tech {
   padding-block: 8rem;
