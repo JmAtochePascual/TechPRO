@@ -48,3 +48,24 @@
 .modelo:nth-child(3) .modelo__precio {
   font-size: 6rem;
 }
+
+/* NEWSLETTER */
+.newsletter {
+  background-image: linear-gradient(to right, transparent 0%, transparent 50%, var(--white-color) 50%, var(--white-color) 100%), url("../img/newsletter.jpg");
+  background-size: 100%, 120rem;
+  background-position: center, left center;
+}
+
+.newsletter__wrapper {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.newsletter__title {
+  font-size: 4rem;
+}
+
+.newsletter__buttom:hover {
+  cursor: pointer;
+  transition: background-color .3s ease-in-out;
+  background-color: #0a4570;
+}

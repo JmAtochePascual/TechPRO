@@ -102,3 +102,26 @@
 .modelo:nth-child(3) .modelo__precio {
   font-size: 5rem;
 }
+
+/* NEWSLETTER */
+.newsletter {
+  background-image: linear-gradient(to right, transparent 0%, transparent 50%, var(--white-color) 50%, var(--white-color) 100%), url("../img/newsletter.jpg");
+  background-size: 100%, 90rem;
+  background-position: center, left top;
+}
+
+.newsletter__wrapper {
+  grid-template-columns: minmax(30rem, 80rem);
+  grid-template-rows: unset;
+  gap: 5rem;
+}
+
+.newsletter__content {
+  grid-column: 2 / 3;
+  grid-row: unset;
+  text-align: left;
+}
+
+.newsletter__title {
+  font-size: 3.4rem;
+}
