@@ -125,3 +125,9 @@
 .newsletter__title {
   font-size: 3.4rem;
 }
+
+/* FOOTER */
+.footer {
+  padding-block: 1rem;
+  font-size: 2rem;
+}
