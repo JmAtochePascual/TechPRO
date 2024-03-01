@@ -54,7 +54,7 @@
   background-position: center, top right;
 }
 
-@supports (background-image: url('../img/imagen-mujer.webp')) {
+/* @supports (background-image: url('../img/imagen-mujer.webp')) {
   .sobre-tech {
     background-image: linear-gradient(to left, transparent 0%, transparent 50%, var(--primary-color) 50%, var(--primary-color) 100%), url("../img/imagen-mujer.webp");
   }
@@ -64,7 +64,7 @@
   .sobre-tech {
     background-image: linear-gradient(to left, transparent 0%, transparent 50%, var(--primary-color) 50%, var(--primary-color) 100%), url("../img/imagen-mujer.avif");
   }
-}
+} */
 
 .sobre-tech__grid {
   grid-template-columns: repeat(2, minmax(30rem, 50rem));

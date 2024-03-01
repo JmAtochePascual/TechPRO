@@ -300,7 +300,7 @@ textarea {
   background-position: center, center top;
 }
 
-@supports (background-image: url('../img/newsletter.webp')) {
+/* @supports (background-image: url('../img/newsletter.webp')) {
   .newsletter {
     background-image: linear-gradient(to bottom, transparent 0%, transparent 50%, var(--white-color) 50%, var(--white-color) 100%), url("../img/newsletter.webp");
   }
@@ -310,7 +310,7 @@ textarea {
   .newsletter {
     background-image: linear-gradient(to bottom, transparent 0%, transparent 50%, var(--white-color) 50%, var(--white-color) 100%), url("../img/newsletter.avif");
   }
-}
+} */
 
 .newsletter__wrapper {
   display: grid;
