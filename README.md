@@ -34,7 +34,7 @@ El proyecto es una página web completa que sirve como plataforma de venta de au
 
 Para empezar, simplemente abre el archivo `index.html` en tu navegador web preferido y explora las diferentes secciones de la tienda.
 
-¡Disfruta de tu experiencia de compra en línea con Tienda Muebles!
+¡Disfruta de tu experiencia de compra en línea con TechPRO!
 
 ## 📌Instalación
 
