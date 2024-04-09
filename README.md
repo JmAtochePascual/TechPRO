@@ -62,4 +62,4 @@ Este proyecto está bajo la licencia [MIT](https://opensource.org/licenses/MIT).
 
 [ver Proyecto](https://jmatochepacual.github.io/TechPRO/)
 
-© 2024 Tienda Muebles. Todos los derechos reservados.
+© 2024 TechPro. Todos los derechos reservados.
