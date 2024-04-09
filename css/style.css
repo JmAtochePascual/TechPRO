@@ -1,39 +1,39 @@
 @font-face {
-  font-family: "Lato", sans-serif;
+  font-family: "Lato";
   src: url(../fonts/Lato/Lato-Regular.ttf);
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Lato", sans-serif;
+  font-family: "Lato";
   src: url(../fonts/Lato/Lato-Bold.ttf);
   font-weight: 700;
   font-style: bold;
 }
 
 @font-face {
-  font-family: "Lato", sans-serif;
+  font-family: "Lato";
   src: url(../fonts/Lato/Lato-Black.ttf);
   font-weight: 900;
 }
 
 @font-face {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto";
   src: url(../fonts/Roboto/Roboto-Regular.ttf);
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto";
   src: url(../fonts/Roboto/Roboto-Bold.ttf);
   font-weight: 700;
   font-style: bold;
 }
 
 @font-face {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto";
   src: url(../fonts/Roboto/Roboto-Black.ttf);
   font-weight: 900;
 }
