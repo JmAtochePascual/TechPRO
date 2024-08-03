@@ -56,10 +56,10 @@ Este proyecto está bajo la licencia [MIT](https://opensource.org/licenses/MIT).
 
 ## 🙈Imagen de Rereferencia
 
-![](https://jmatochepascual.github.io/TechPRO/)
+![](https://i.postimg.cc/ZYNNsthC/TechPRO.png)
 
 ## 🌐Ver Proyecto en la WEB
 
-[ver Proyecto](https://jmatochepacual.github.io/TechPRO/)
+[ver Proyecto](https://jmatochepascual.github.io/TechPRO/)
 
 © 2024 TechPro. Todos los derechos reservados.
