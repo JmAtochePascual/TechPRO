@@ -56,7 +56,7 @@ Este proyecto está bajo la licencia [MIT](https://opensource.org/licenses/MIT).
 
 ## 🙈Imagen de Rereferencia
 
-![](https://i.postimg.cc/ZYNNsthC/TechPRO.png)
+![](https://jmatochepascual.github.io/TechPRO/)
 
 ## 🌐Ver Proyecto en la WEB
 
