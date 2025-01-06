@@ -1,55 +1,62 @@
 # ⚡️TechPRO
 
-Este proyecto es una página web diseñada para una tienda de audifonos línea. Proporciona una experiencia intuitiva y atractiva para que los usuarios naveguen por diferentes categorías de productos y encuentren información relevante sobre el producto.
-
-## 🎯Contenido
-
-1. 📝[Descripción](#descripción)
-2. 🛠️[Tecnologías y Herramientas](#tecnologías-y-herramientas)
-3. 🚀[Estructura del Proyecto](#estructura-del-proyecto)
-4. 🧑‍💻[Uso](#uso)
-5. 📌[Instalación](#instalación)
-6. 🏗️[Contribución](#contribución)
-7. ✨[Licencia](#licencia)
-8. 🙈[Imagen de Referencia](#imagen-de-rereferencia)
-9. 🌐[Ver Proyecto en la WEB](#ver-proyecto-en-la-web)
-
-## Descripción
-
-El proyecto es una página web completa que sirve como plataforma de venta de audifonos en línea. Ofrece una experiencia de usuario atractiva y fácil de usar, con secciones que incluyen distintos productos con sus respectivos precios.
+TechPRO es una página web moderna y elegante diseñada para una tienda especializada en audífonos de alta gama. El sitio presenta un diseño minimalista y profesional que resalta las características premium de los productos.
+La página incluye secciones bien estructuradas que muestran los diferentes modelos de audífonos, sus especificaciones técnicas y precios. Además, cuenta con un diseño totalmente responsive que garantiza una experiencia de usuario óptima tanto en dispositivos móviles como de escritorio.
 
 ## Tecnologías y Herramientas
 
 - **HTML5**: Lenguaje de marcado para la estructura de la página.
 - **CSS3**: Estilos para el diseño y presentación.
 - **Responsive Design**: Diseño adaptable para dispositivos móviles y de escritorio.
+- **Git**: Control de versiones para el desarrollo del proyecto.
+- **GitHub Pages**: Plataforma de hosting para el despliegue del sitio.
 
 ## Estructura del Proyecto
 
-- **css/**: Carpeta que contiene archivos CSS para diferentes tamaños de pantalla.
-- **img/**: Carpeta con imágenes utilizadas en la página.
-- **fonts/**: Carpeta con las fuentes utilizadas en la página.
-- **index.html**: Página principal del proyecto.
+- **css/**: Carpeta que contiene los estilos principales.
+- **img/**: Carpeta con imágenes de productos, logos y elementos decorativos.
+- **fonts/**: Carpeta con las fuentes Lato y Roboto en sus diferentes pesos.
+- **index.html**: Archivo HTML principal que contiene la estructura y contenido del sitio.
 
 ## Uso
 
-Para empezar, simplemente abre el archivo `index.html` en tu navegador web preferido y explora las diferentes secciones de la tienda.
+Para visualizar el proyecto localmente, sigue estos pasos:
 
-¡Disfruta de tu experiencia de compra en línea con TechPRO!
+1. Clona este repositorio:
 
-## Instalación
+```
+git clone https://github.com/JMatochePascual/EcoStore.git
+```
 
-No se requiere instalación adicional para utilizar este proyecto.
+2. Navega al directorio del proyecto:
+
+```
+cd EcoStore
+```
+
+3. Abre el archivo `index.html` en tu navegador web preferido
+
+4. Opcionalmente, puedes usar un servidor local como Live Server para una mejor experiencia
 
 ## Contribución
 
-Si deseas contribuir al proyecto, sigue estos pasos:
+Si deseas contribuir al proyecto, por favor sigue estos pasos en orden:
 
 1. Haz un fork del repositorio.
-2. Crea una nueva rama (`git checkout -b feature-name`).
-3. Realiza tus cambios y haz commit (`git commit -am 'Add new feature'`).
-4. Sube la rama (`git push origin feature-name`).
-5. Abre un Pull Request.
+
+2. Crea una nueva rama para tu funcionalidad:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Realiza y confirma tus cambios:
+   ```bash
+   git commit -am 'Add new feature'
+   ```
+4. Sube los cambios a tu repositorio:
+   ```bash
+   git push origin feature-name
+   ```
+5. Abre un Pull Request desde tu repositorio hacia el proyecto principal
 
 ## Licencia
 
@@ -57,10 +64,10 @@ Este proyecto está bajo la licencia [MIT](https://opensource.org/licenses/MIT).
 
 ## Imagen de Rereferencia
 
-![](https://i.postimg.cc/ZYNNsthC/TechPRO.png)
+![](https://i.postimg.cc/FK2N6DkM/techpro.png)
 
-## Ver Proyecto en la WEB
+## ¡Visita Nuestro Proyecto!
 
-[ver Proyecto](https://jmatochepascual.github.io/TechPRO/)
+¿Quieres ver TechPRO en acción? ¡Haz clic aquí! 👉 [Visitar TechPRO](https://jmatochepascual.github.io/TechPRO/)
 
-© 2024 TechPro. Todos los derechos reservados.
+Hecho con 💚 por TechPRO | ©2025 - Tu tienda de audífonos de alta gama
