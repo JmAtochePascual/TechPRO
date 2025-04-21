@@ -1,22 +1,34 @@
-# ⚡️TechPRO
+# TechPRO
 
 TechPRO es una página web moderna y elegante diseñada para una tienda especializada en audífonos de alta gama. El sitio presenta un diseño minimalista y profesional que resalta las características premium de los productos.
 La página incluye secciones bien estructuradas que muestran los diferentes modelos de audífonos, sus especificaciones técnicas y precios. Además, cuenta con un diseño totalmente responsive que garantiza una experiencia de usuario óptima tanto en dispositivos móviles como de escritorio.
 
-## Tecnologías y Herramientas
+## Caracteristicas
+
+- **Google Fonts**: Tipografías web optimizadas.
+- **Optimización SEO**: Metadatos y estructura optimizada para buscadores.
+- **Responsive Design**: Diseño adaptable para todos los dispositivos.
+- **Formatos de imagen modernos**: Soporte para WebP y AVIF para optimizar el rendimiento.
+- **Favicon**: Iconos personalizados para diferentes dispositivos y plataformas.
+
+## Tecnologías
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 - **HTML5**: Lenguaje de marcado para la estructura de la página.
 - **CSS3**: Estilos para el diseño y presentación.
-- **Responsive Design**: Diseño adaptable para dispositivos móviles y de escritorio.
-- **Git**: Control de versiones para el desarrollo del proyecto.
-- **GitHub Pages**: Plataforma de hosting para el despliegue del sitio.
 
 ## Estructura del Proyecto
 
-- **css/**: Carpeta que contiene los estilos principales.
-- **img/**: Carpeta con imágenes de productos, logos y elementos decorativos.
-- **fonts/**: Carpeta con las fuentes Lato y Roboto en sus diferentes pesos.
-- **index.html**: Archivo HTML principal que contiene la estructura y contenido del sitio.
+- **css**: Carpeta que contiene los archivos.
+- **img**: Carpeta con imágenes optimizadas en formatos WebP y AVIF para mejor rendimiento web.
+- **fonts**: Carpeta que contiene las fuentes del proyecto.
+- **index.html**: Página de inicio que presenta la aplicación.
+
+## Instalación
+
+> Nota: Para trabajar en este proyecto no se requiere instalación alguna
 
 ## Uso
 
@@ -25,13 +37,13 @@ Para visualizar el proyecto localmente, sigue estos pasos:
 1. Clona este repositorio:
 
 ```
-git clone https://github.com/JMatochePascual/EcoStore.git
+git clone https://github.com/JMatochePascual/TechPRO.git
 ```
 
 2. Navega al directorio del proyecto:
 
 ```
-cd EcoStore
+cd TechPRO
 ```
 
 3. Abre el archivo `index.html` en tu navegador web preferido
@@ -42,7 +54,7 @@ cd EcoStore
 
 Si deseas contribuir al proyecto, por favor sigue estos pasos en orden:
 
-1. Haz un fork del repositorio.
+1. Haz un fork del repositorio
 
 2. Crea una nueva rama para tu funcionalidad:
    ```bash
@@ -60,14 +72,6 @@ Si deseas contribuir al proyecto, por favor sigue estos pasos en orden:
 
 ## Licencia
 
-Este proyecto está bajo la licencia [MIT](https://opensource.org/licenses/MIT).
+Este proyecto se encuentra disponible bajo la licencia MIT. Puedes consultar los términos completos [aquí](https://opensource.org/licenses/MIT).
 
-## Imagen de Rereferencia
-
-![](https://i.postimg.cc/FK2N6DkM/techpro.png)
-
-## ¡Visita Nuestro Proyecto!
-
-¿Quieres ver TechPRO en acción? ¡Haz clic aquí! 👉 [Visitar TechPRO](https://jmatochepascual.github.io/TechPRO/)
-
-Hecho con 💚 por TechPRO | ©2025 - Tu tienda de audífonos de alta gama
+Desarrollado con 💚 por JMCode | © 2025 - Transformando ideas en soluciones digitales
